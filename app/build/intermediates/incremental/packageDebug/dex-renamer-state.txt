@@ -1,0 +1,7 @@
+#Wed Feb 08 13:48:06 PST 2017
+base.0=C\:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1b58286d170f9e0e99f0a4729ea13442fefbf89a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_bb4f8c9377c1378479ebd12583e5f3f5ddafde4c\\classes.dex
+base.1=C\:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_bb4f8c9377c1378479ebd12583e5f3f5ddafde4c
+file.0=C\:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1b58286d170f9e0e99f0a4729ea13442fefbf89a\\classes.dex

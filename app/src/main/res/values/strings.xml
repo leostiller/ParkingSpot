@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ParkingSpot</string>
+    <string name="title_activity_maptest">Map</string>
+    <string name="title_activity_search">Map</string>
+</resources>
