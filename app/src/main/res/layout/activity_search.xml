@@ -14,20 +14,24 @@
 
     <Button
         android:id="@+id/directCheckinBtn"
-        android:background="@drawable/bg_button_checkin"
+        android:background="@drawable/button"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="10dp"
-        android:layout_width="170dp" />
+        android:layout_width="170dp"
+        android:text="Check-in"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/button2"
-        android:background="@drawable/bg_button_otherfind"
+        android:background="@drawable/button"
         android:layout_height="40dp"
         android:layout_below="@+id/directCheckinBtn"
         android:layout_alignParentEnd="true"
-        android:layout_width="170dp" />
+        android:layout_width="170dp"
+        android:text="Find other spot"
+        android:textSize="18sp" />
 
     <ImageView
         app:srcCompat="@drawable/calstate_logo"
@@ -37,6 +41,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginRight="10dp"
         android:layout_width="150dp" />
+
 
     <fragment
         android:id="@+id/map"

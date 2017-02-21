@@ -1,7 +1,7 @@
 [
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\10.0.1\\res\\color\\wallet_secondary_text_holo_dark.xml"
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\10.2.0\\res\\color\\wallet_secondary_text_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
@@ -9,7 +9,7 @@
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
@@ -69,7 +69,7 @@
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
@@ -77,10 +77,14 @@
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\10.0.1\\res\\color\\wallet_primary_text_holo_light.xml"
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\10.2.0\\res\\color\\wallet_primary_text_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\color\\common_google_signin_btn_tint.xml"
     }
 ]

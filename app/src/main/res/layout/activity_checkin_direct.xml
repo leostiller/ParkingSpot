@@ -23,25 +23,31 @@
 
     <Button
         android:id="@+id/directCheckinBtn"
-        android:background="@drawable/bg_button_checkin"
+        android:background="@drawable/button"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="10dp"
-        android:layout_width="170dp" />
+        android:layout_width="170dp"
+        android:text="Check-in"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/directCancelBtn"
-        android:background="@drawable/bg_button_otherfind"
         android:layout_height="40dp"
         android:layout_below="@+id/directCheckinBtn"
         android:layout_alignParentEnd="true"
-        android:layout_width="170dp" />
+        android:layout_width="170dp"
+        android:onClick="directCancelActivity"
+        android:background="@drawable/button"
+        android:text="Availability"
+        android:textSize="18sp" />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@+id/directLogoView">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -53,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_marginTop="130dp"
+                android:layout_marginTop="50dp"
                 android:gravity="center_horizontal"
                 android:id="@+id/lotTextView"
                 android:textColor="@android:color/white" />
@@ -64,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/spotTextView"
                 android:layout_weight="1"
-                android:layout_marginTop="130dp"
+                android:layout_marginTop="50dp"
                 android:gravity="center_horizontal"
                 android:textColor="@android:color/white" />
         </LinearLayout>

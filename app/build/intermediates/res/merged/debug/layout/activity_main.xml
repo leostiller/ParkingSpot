@@ -34,40 +34,49 @@
 
     <Button
         android:id="@+id/directCheckinBtn"
-        android:background="@drawable/bg_button_checkin"
+        android:background="@drawable/button"
         android:layout_height="60dp"
         android:layout_width="300dp"
         android:layout_below="@+id/findBtn"
         android:layout_alignStart="@+id/findBtn"
         android:layout_marginTop="21dp"
-        android:onClick="startCheckinDirectActivity" />
+        android:onClick="startCheckinDirectActivity"
+        android:textSize="24sp"
+        android:text="Check-in" />
 
     <Button
         android:id="@+id/mapBtn"
-        android:background="@drawable/bg_button_map"
+        android:background="@drawable/button"
         android:layout_marginTop="19dp"
         android:layout_height="60dp"
         android:layout_width="300dp"
         android:layout_below="@+id/directCheckinBtn"
-        android:layout_alignStart="@+id/directCheckinBtn" />
+        android:layout_alignStart="@+id/directCheckinBtn"
+        android:text="Parking Map"
+        android:textSize="24sp"
+        android:onClick="startMapActivity" />
 
     <Button
         android:id="@+id/profileBtn"
-        android:background="@drawable/bg_button_profile"
+        android:background="@drawable/button"
         android:layout_height="60dp"
         android:layout_width="300dp"
-        android:layout_marginBottom="39dp"
-        android:layout_above="@+id/copyrightView"
-        android:layout_alignStart="@+id/mapBtn" />
+        android:layout_alignStart="@+id/mapBtn"
+        android:text="My Profile"
+        android:textSize="24sp"
+        android:layout_below="@+id/mapBtn"
+        android:layout_marginTop="60dp" />
 
     <Button
         android:id="@+id/findBtn"
-        android:background="@drawable/bg_button_find"
+        android:background="@drawable/button"
         android:layout_height="60dp"
         android:layout_width="300dp"
         android:layout_centerInParent="false"
         android:onClick="startSearchActivity"
         android:layout_below="@+id/mainLogoView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:text="Find a spot"
+        android:textSize="24sp" />
 
 </RelativeLayout>

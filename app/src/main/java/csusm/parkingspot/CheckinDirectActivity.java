@@ -1,7 +1,11 @@
 package csusm.parkingspot;
 
+import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.NumberPicker;
 
 public class CheckinDirectActivity extends AppCompatActivity {
@@ -32,5 +36,19 @@ public class CheckinDirectActivity extends AppCompatActivity {
         spotPicker.setMaxValue(330);
         spotPicker.setWrapSelectorWheel(false);
     }
+
+    protected void directCancelActivity(View view) {
+        final Button directCancelBtn = (Button) findViewById(R.id.directCancelBtn);
+        directCancelBtn.setAlpha((float) 0.5);
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            public void run() {
+                directCancelBtn.setAlpha((float) 1);
+            }
+        }, 500);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
 
 }
