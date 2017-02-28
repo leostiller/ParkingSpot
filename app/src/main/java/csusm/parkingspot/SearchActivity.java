@@ -38,16 +38,6 @@ public class SearchActivity extends AppCompatActivity implements OnMapReadyCallb
 
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-    }
-
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.

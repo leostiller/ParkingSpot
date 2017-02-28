@@ -22,25 +22,24 @@
         android:layout_width="150dp" />
 
     <Button
-        android:id="@+id/directCheckinBtn"
+        android:id="@+id/checkinDirectBtn"
         android:background="@drawable/button"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="10dp"
         android:layout_width="170dp"
-        android:text="Check-in"
+        android:text="@string/check_in"
         android:textSize="18sp" />
 
     <Button
         android:id="@+id/directCancelBtn"
         android:layout_height="40dp"
-        android:layout_below="@+id/directCheckinBtn"
+        android:layout_below="@+id/checkinDirectBtn"
         android:layout_alignParentEnd="true"
         android:layout_width="170dp"
-        android:onClick="directCancelActivity"
         android:background="@drawable/button"
-        android:text="Availability"
+        android:text="@string/cancel"
         android:textSize="18sp" />
 
     <LinearLayout
@@ -55,7 +54,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Select a lot:"
+                android:text="@string/select_a_lot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -65,7 +64,7 @@
                 android:textColor="@android:color/white" />
 
             <TextView
-                android:text="Select a spot:"
+                android:text="@string/select_a_spot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/spotTextView"

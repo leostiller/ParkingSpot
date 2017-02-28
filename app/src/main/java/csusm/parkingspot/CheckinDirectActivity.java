@@ -17,6 +17,8 @@ public class CheckinDirectActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checkin_direct);
 
+
+        //set values and settings for the scroll wheels
         NumberPicker lotPicker = (NumberPicker) findViewById(R.id.lotPicker);
         String[] alphabet = {"A","B","C","D","E","F",}; //TODO
         lotPicker.setMinValue(0);
@@ -35,20 +37,18 @@ public class CheckinDirectActivity extends AppCompatActivity {
         spotPicker.setMinValue(301);
         spotPicker.setMaxValue(330);
         spotPicker.setWrapSelectorWheel(false);
-    }
 
-    protected void directCancelActivity(View view) {
-        final Button directCancelBtn = (Button) findViewById(R.id.directCancelBtn);
-        directCancelBtn.setAlpha((float) 0.5);
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            public void run() {
-                directCancelBtn.setAlpha((float) 1);
+
+        Button directCancelBtn = (Button) findViewById(R.id.directCancelBtn);
+        directCancelBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View v){
+                directCancelBtn.setAlpha((float) 0.5);
+                Handler handler = new Handler();
+                handler.postDelayed(() -> directCancelBtn.setAlpha((float) 1), 500);
+                Intent intent = new Intent(CheckinDirectActivity.this, MainActivity.class);
+                startActivity(intent);
             }
-        }, 500);
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        });
     }
-
-
 }

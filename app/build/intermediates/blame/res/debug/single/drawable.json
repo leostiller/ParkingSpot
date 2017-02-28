@@ -36,6 +36,10 @@
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_info_black_24dp.xml",
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\src\\main\\res\\drawable\\ic_info_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calstate_logo.png",
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\src\\main\\res\\drawable\\calstate_logo.png"
     },
@@ -68,12 +72,12 @@
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_track.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\drawable\\cast_expanded_controller_seekbar_track.xml"
-    },
-    {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_track.xml",
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\drawable\\cast_expanded_controller_seekbar_track.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_mute.xml",
@@ -144,6 +148,10 @@
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
     },
     {
+        "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\design_ic_visibility.xml"
+    },
+    {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\drawable\\cast_ic_mini_controller_pause.xml"
     },
@@ -158,6 +166,10 @@
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_rewind30.xml",
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
@@ -202,6 +214,10 @@
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop_large.xml",
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\drawable\\cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_notifications_black_24dp.xml",
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
@@ -356,6 +372,10 @@
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
+        "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_sync_black_24dp.xml",
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\src\\main\\res\\drawable\\ic_sync_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.0\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
@@ -436,6 +456,10 @@
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\drawable\\cast_ic_mini_controller_forward30.xml"
     },
     {
+        "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_next.xml",
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\drawable\\cast_ic_notification_skip_next.xml"
     },
@@ -458,5 +482,9 @@
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_light.xml",
         "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable\\mr_ic_media_route_connecting_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\design_fab_background.xml"
     }
 ]

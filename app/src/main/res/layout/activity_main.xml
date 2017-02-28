@@ -26,23 +26,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/copyrightView"
-        android:text="© L. Weiser | M. Deutsche | L. Stiller"
+        android:text="@string/authors"
         android:textColor="@android:color/white"
         android:textSize="10sp"
         android:layout_alignParentBottom="true"
         android:layout_alignEnd="@+id/profileBtn" />
 
     <Button
-        android:id="@+id/directCheckinBtn"
+        android:id="@+id/checkinDirectBtn"
         android:background="@drawable/button"
         android:layout_height="60dp"
         android:layout_width="300dp"
         android:layout_below="@+id/findBtn"
         android:layout_alignStart="@+id/findBtn"
         android:layout_marginTop="21dp"
-        android:onClick="startCheckinDirectActivity"
         android:textSize="24sp"
-        android:text="Check-in" />
+        android:text="@string/check_in" />
 
     <Button
         android:id="@+id/mapBtn"
@@ -50,11 +49,11 @@
         android:layout_marginTop="19dp"
         android:layout_height="60dp"
         android:layout_width="300dp"
-        android:layout_below="@+id/directCheckinBtn"
-        android:layout_alignStart="@+id/directCheckinBtn"
-        android:text="Parking Map"
+        android:layout_below="@+id/checkinDirectBtn"
+        android:layout_alignStart="@+id/checkinDirectBtn"
+        android:text="@string/parking_map"
         android:textSize="24sp"
-        android:onClick="startMapActivity" />
+        />
 
     <Button
         android:id="@+id/profileBtn"
@@ -62,7 +61,7 @@
         android:layout_height="60dp"
         android:layout_width="300dp"
         android:layout_alignStart="@+id/mapBtn"
-        android:text="My Profile"
+        android:text="@string/my_profile"
         android:textSize="24sp"
         android:layout_below="@+id/mapBtn"
         android:layout_marginTop="60dp" />
@@ -73,10 +72,9 @@
         android:layout_height="60dp"
         android:layout_width="300dp"
         android:layout_centerInParent="false"
-        android:onClick="startSearchActivity"
         android:layout_below="@+id/mainLogoView"
         android:layout_centerHorizontal="true"
-        android:text="Find a spot"
+        android:text="@string/find_a_spot"
         android:textSize="24sp" />
 
 </RelativeLayout>
