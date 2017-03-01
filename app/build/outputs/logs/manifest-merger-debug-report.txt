@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:2:1-65:12
+ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:2:1-66:12
 	package
 		ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml
@@ -38,7 +38,7 @@ MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\lstiller
 	android:name
 		ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:16:22-64
 application
-ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:18:5-63:19
+ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:18:5-64:19
 MERGED from [com.google.android.gms:play-services:10.2.0] C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\10.2.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.0\AndroidManifest.xml:26:5-19
@@ -152,9 +152,13 @@ ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:59:13-42
 activity#csusm.parkingspot.ProfileActivity
-ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:62:9-62
+ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:62:9-53
 	android:name
 		ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:62:19-50
+activity#csusm.parkingspot.RegisterActivity
+ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:63:9-63
+	android:name
+		ADDED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml:63:19-51
 uses-sdk
 INJECTED from C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services:10.2.0] C:\Users\lstiller\AndroidStudioProjects\ParkingSpot\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\10.2.0\AndroidManifest.xml:4:5-43

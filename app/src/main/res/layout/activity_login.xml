@@ -14,12 +14,6 @@
 
     <!-- Login progress -->
 
-    <ImageView
-        android:layout_width="match_parent"
-        app:srcCompat="@drawable/calstate_logo"
-        android:id="@+id/imageView"
-        android:layout_marginTop="15dp"
-        android:layout_height="100dp" />
 
     <ScrollView
         android:id="@+id/login_form"
@@ -31,6 +25,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/calstate_logo"
+                android:id="@+id/imageView"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -71,30 +72,21 @@
             <Button
                 android:id="@+id/id_sign_in_button"
                 android:layout_width="match_parent"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="25dp"
                 android:text="@string/action_sign_in"
                 android:background="@drawable/button"
-                android:layout_height="40dp"
-                android:layout_marginBottom="16dp" />
+                android:layout_height="40dp" />
 
-            <!-- Idea for a different register button layout
             <Button
-                android:id="@+id/btnLinkToRegisterScreen"
+                android:id="@+id/registerTxtBtn"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:background="@null"
-                android:text="Click here to register"
+                android:text="Not registered yet? Click here to sign up"
                 android:textAllCaps="false"
                 android:textColor="@android:color/white"
-                android:textSize="15dp" />
-               -->
-
-            <Button
-                android:text="Register"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:id="@+id/registerBtn"
-                android:background="@drawable/button" />
+                android:textSize="15dp"
+                android:layout_marginTop="5dp" />
 
         </LinearLayout>
     </ScrollView>

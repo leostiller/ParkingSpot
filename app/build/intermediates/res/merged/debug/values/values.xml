@@ -986,9 +986,13 @@
     <string name="debug_menu_title">Select a Debug Mode</string>
     <string name="debug_menu_troubleshooting">Troubleshooting</string>
     <string name="decline">Decline</string>
+    <string name="error_email_used">This email is already registered</string>
     <string name="error_field_required">This field is required</string>
+    <string name="error_id_used">This ID is already registered</string>
     <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">Your email is incorrect</string>
     <string name="error_invalid_id">Your ID has to be 9 digits long</string>
+    <string name="error_invalid_name">Your name is incorrect</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="find_a_spot">Find a spot</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">

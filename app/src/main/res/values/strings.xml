@@ -18,10 +18,16 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Log in</string>
     <string name="error_invalid_id">Your ID has to be 9 digits long</string>
+    <string name="error_invalid_email">Your email is incorrect</string>
+    <string name="error_invalid_name">Your name is incorrect</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
     <string name="title_activity_profile">My Profile</string>
+    <string name="error_id_used">This ID is already registered</string>
+    <string name="error_email_used">This email is already registered</string>
+
+
 
     <!-- Strings related to Settings -->
 

@@ -89,11 +89,9 @@ public class MainActivity extends AppCompatActivity {
 
                 if (settings.getInt("sessionID", -1) == -1) {
                     startActivity(new Intent(MainActivity.this, LoginActivity.class));
-                    //TODO: handle back button on hardware for getting to MainActivity
                     finish();
                 } else {
                     startActivity(new Intent(MainActivity.this, ProfileActivity.class));
-                    //TODO: handle back button on hardware for getting to MainActivity
                     finish();
                 }
             }

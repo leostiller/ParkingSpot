@@ -79,6 +79,7 @@
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait" />
         <activity android:name="csusm.parkingspot.ProfileActivity" />
+        <activity android:name="csusm.parkingspot.RegisterActivity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

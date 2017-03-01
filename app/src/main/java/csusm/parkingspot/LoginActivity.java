@@ -79,6 +79,15 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        Button mRegistrationButton = (Button) findViewById(R.id.registerTxtBtn);
+        mRegistrationButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
+            }
+        });
+
         mLoginFormView = findViewById(R.id.login_form);
     }
 
@@ -219,5 +228,10 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(LoginActivity.this,MainActivity.class));
+        finish();
+    }
 }
 
