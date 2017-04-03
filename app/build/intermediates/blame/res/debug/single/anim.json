@@ -1,58 +1,58 @@
 [
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_bottom.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\315b258f0a2e0d79f8e5b86151638b253e8c4ec3\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_in.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\315b258f0a2e0d79f8e5b86151638b253e8c4ec3\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_snackbar_in.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\916473d8a50bbb774b70de4f7768f3bd6aeffed9\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_bottom.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\315b258f0a2e0d79f8e5b86151638b253e8c4ec3\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_top.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\315b258f0a2e0d79f8e5b86151638b253e8c4ec3\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_enter.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\315b258f0a2e0d79f8e5b86151638b253e8c4ec3\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_exit.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\315b258f0a2e0d79f8e5b86151638b253e8c4ec3\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_fab_in.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\916473d8a50bbb774b70de4f7768f3bd6aeffed9\\output\\res\\anim\\design_fab_in.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_fab_out.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\916473d8a50bbb774b70de4f7768f3bd6aeffed9\\output\\res\\anim\\design_fab_out.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_out.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\315b258f0a2e0d79f8e5b86151638b253e8c4ec3\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_snackbar_out.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\916473d8a50bbb774b70de4f7768f3bd6aeffed9\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\315b258f0a2e0d79f8e5b86151638b253e8c4ec3\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\315b258f0a2e0d79f8e5b86151638b253e8c4ec3\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\lstiller\\AndroidStudioProjects\\ParkingSpot\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_top.xml"
+        "source": "C:\\Users\\lstiller\\.android\\build-cache\\315b258f0a2e0d79f8e5b86151638b253e8c4ec3\\output\\res\\anim\\abc_slide_in_top.xml"
     }
 ]
