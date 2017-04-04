@@ -50,7 +50,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CheckinDirectActivity"
+            android:name=".CheckinDirectLotActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".MapActivity"
@@ -60,7 +60,8 @@
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".CheckinDirectSpotActivity"></activity>
     </application>
 
 </manifest>

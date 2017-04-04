@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_checkin_direct_lot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_shape"
+    tools:context="csusm.parkingspot.CheckinDirectLotActivity">
+
+    <ImageView
+        app:srcCompat="@drawable/calstate_logo"
+        android:id="@+id/directLogoView"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="150dp" />
+
+    <Button
+        android:id="@+id/directCancelBtn"
+        android:layout_height="40dp"
+        android:layout_below="@+id/checkinDirectBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_width="170dp"
+        android:background="@drawable/button"
+        android:text="@string/cancel"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/directLogoView">
+
+        <TextView
+            android:id="@+id/lotTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/select_a_lot"
+            android:textColor="@android:color/white" />
+
+        <NumberPicker
+            android:id="@+id/lotPicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lotTextView"
+            android:layout_marginTop="20dp"
+            android:descendantFocusability="blocksDescendants" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/lotPicker"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:text="Next"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

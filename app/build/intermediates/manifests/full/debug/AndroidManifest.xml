@@ -69,7 +69,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="csusm.parkingspot.CheckinDirectActivity"
+            android:name="csusm.parkingspot.CheckinDirectLotActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="csusm.parkingspot.MapActivity"
@@ -80,6 +80,7 @@
             android:screenOrientation="portrait" />
         <activity android:name="csusm.parkingspot.ProfileActivity" />
         <activity android:name="csusm.parkingspot.RegisterActivity" />
+        <activity android:name="csusm.parkingspot.CheckinDirectSpotActivity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
