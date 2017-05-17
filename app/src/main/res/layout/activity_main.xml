@@ -34,14 +34,14 @@
 
     <Button
         android:id="@+id/checkinDirectBtn"
-        android:background="@drawable/button"
-        android:layout_height="60dp"
         android:layout_width="300dp"
-        android:layout_below="@+id/findBtn"
+        android:layout_height="60dp"
         android:layout_alignStart="@+id/findBtn"
+        android:layout_below="@+id/findBtn"
         android:layout_marginTop="21dp"
-        android:textSize="24sp"
-        android:text="@string/check_in" />
+        android:background="@drawable/button"
+        android:text="@string/check_in"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/mapBtn"

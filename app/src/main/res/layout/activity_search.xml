@@ -13,7 +13,7 @@
 
 
     <Button
-        android:id="@+id/checkinDirectBtn"
+        android:id="@+id/checkinSearchBtn"
         android:background="@drawable/button"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
@@ -24,12 +24,12 @@
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/button2"
-        android:background="@drawable/button"
-        android:layout_height="40dp"
-        android:layout_below="@+id/checkinDirectBtn"
-        android:layout_alignParentEnd="true"
+        android:id="@+id/otherBtn"
         android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/checkinSearchBtn"
+        android:background="@drawable/button"
         android:text="Find other spot"
         android:textSize="18sp" />
 

@@ -212,7 +212,7 @@ public class LoginActivity extends AppCompatActivity {
                 editor.commit();
                 System.out.println("LoginActivity SessionID is "+settings.getInt("sessionID",-1));
 
-                startActivity(new Intent(LoginActivity.this,ProfileActivity.class));
+                startActivity(new Intent(LoginActivity.this,MainActivity.class));
                 finish();
 
             } else {

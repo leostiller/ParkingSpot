@@ -59,9 +59,9 @@
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait" />
-        <activity android:name=".ProfileActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".CheckinDirectSpotActivity"></activity>
+        <activity android:name=".CheckinDirectSpotActivity" />
+        <activity android:name=".CheckoutActivity"></activity>
     </application>
 
 </manifest>

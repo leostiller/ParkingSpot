@@ -1,5 +1,6 @@
 package csusm.parkingspot;
 
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -18,7 +19,11 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     private GoogleMap parkingMap;
     GoogleApiClient mGoogleApiClient;
 
-
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(MapActivity.this,MainActivity.class));
+        finish();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

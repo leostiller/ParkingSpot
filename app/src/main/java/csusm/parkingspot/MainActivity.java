@@ -1,7 +1,9 @@
 package csusm.parkingspot;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
@@ -9,22 +11,50 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class MainActivity extends AppCompatActivity {
+
+    int studentID;
+    int studentSpot;
+    char studentLot;
+    ProgressDialog progressDialog;
+    GetStudentSpot mGetStudentSpot;
+    Button searchBtn;
+    Button checkinDirectBtn;
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        //define Progress Dialog
+        progressDialog = new ProgressDialog(MainActivity.this);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage("Loading...");
+        progressDialog.show();
 
         //test and print session id
         SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         System.out.println("MainActivity SessionID is " + settings.getInt("sessionID", -1));
+        studentID = settings.getInt("sessionID", -1);
+        searchBtn = (Button) findViewById(R.id.findBtn);
+        mGetStudentSpot = new GetStudentSpot();
+        mGetStudentSpot.execute((Void) null);
+
+
 
         //set text of the profile button and button availability in dependence of session status
         Button profileBtn = (Button) findViewById(R.id.profileBtn);
-        Button checkinDirectBtn = (Button) findViewById(R.id.checkinDirectBtn);
-        Button searchBtn = (Button) findViewById(R.id.findBtn);
+        checkinDirectBtn = (Button) findViewById(R.id.checkinDirectBtn);
 
         if (settings.getInt("sessionID", -1) == -1) {
             profileBtn.setText("Log in");
@@ -33,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             //TODO: give message when tried to click
 
         } else {
-            profileBtn.setText("My Profile");
+            profileBtn.setText("Log out");
             searchBtn.setEnabled(true);
             checkinDirectBtn.setEnabled(true);
         }
@@ -58,7 +88,18 @@ public class MainActivity extends AppCompatActivity {
                 Handler handler = new Handler();
                 handler.postDelayed(() -> checkinDirectBtn.setAlpha((float) 1), 500);
 
-                startActivity(new Intent(MainActivity.this, CheckinDirectLotActivity.class));
+                if (studentSpot==0) {
+                    startActivity(new Intent(MainActivity.this, CheckinDirectLotActivity.class));
+                    finish();
+                } else {
+                    Intent intent = new Intent(MainActivity.this, CheckoutActivity.class);
+                    Bundle params = new Bundle();
+                    params.putChar("studentLot",studentLot);
+                    params.putInt("studentSpot",studentSpot);
+                    intent.putExtras(params);
+                    startActivity(intent);
+                    finish();
+                }
             }
         });
 
@@ -85,13 +126,82 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, LoginActivity.class));
                     finish();
                 } else {
-                    startActivity(new Intent(MainActivity.this, ProfileActivity.class));
-                    finish();
+                            SharedPreferences.Editor editor = settings.edit();
+                            editor.remove("sessionID");
+                            editor.apply();
+                            startActivity(new Intent(MainActivity.this,MainActivity.class));
+                            finish();
                 }
             }
         });
-
     }
 
+public class GetStudentSpot extends AsyncTask<Void, Void, Boolean> {
 
+    GetStudentSpot() {
+    }
+
+    @Override
+    protected Boolean doInBackground(Void... params) {
+        HttpURLConnection conn = null;
+        try {
+            String link = "http://csusm-parkingspot.000webhostapp.com/getStudentSpot.php?studentid=" + studentID;
+            URL url = new URL(link);
+
+            conn = (HttpURLConnection) url.openConnection();
+
+
+            BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+            String inputLine;
+            inputLine = in.readLine();
+            String[] spotKey = inputLine.split(",");
+            if(inputLine.equals("none")) {
+                studentSpot = 0;
+                studentLot = 0;
+            } else {
+                studentSpot = Integer.valueOf(spotKey[0]);
+                studentLot = spotKey[1].charAt(0);
+            }
+            in.close();
+
+            if (inputLine!="") {
+                return true;
+            } else {
+                return false;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            conn.disconnect();
+        }
+        return false;
+    }
+
+    @Override
+    protected void onPostExecute(final Boolean success) {
+        mGetStudentSpot = null;
+        progressDialog.dismiss();
+        if (success) {
+
+
+            if (studentSpot==0) {
+                checkinDirectBtn.setText(R.string.check_in);
+                checkinDirectBtn.setEnabled(true);
+                searchBtn.setEnabled(true);
+                //TODO: give message when tried to click
+
+            } else {
+                checkinDirectBtn.setText("Check-Out");
+                searchBtn.setEnabled(false);
+                checkinDirectBtn.setEnabled(true);
+            }
+
+        } else {
+            System.err.println("Something went wrong");
+        }
+    }
 }
+}
+
+
